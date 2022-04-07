@@ -1,0 +1,35 @@
+{
+  "name": "shopit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=developement nodemon ./backend/server.js",
+    "prod": "NODE_ENV=production node ./backend/server.js",
+    "seeder": "node ./backend/utils/seeder.js"
+  },
+  "author": "Tarek Mokhtar",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.4",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.7.2",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "nodemon": "^2.0.15"
+  },
+  "jshintConfig": {
+    "esversion": 6
+  },
+  "engines": {
+    "node": "17.0.1"
+  }
+}
